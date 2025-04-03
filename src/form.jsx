@@ -57,28 +57,8 @@ export function SubscriberForm() {
         <Form.Help color="danger">Insert address for delivery</Form.Help>
       </Form.Field>
 
-      <Form.Field>
-        <Form.Label>Subject</Form.Label>
-        <Form.Field kind="group">
-          <Form.Control>
-            <Form.Select
-              name="Type of Food"
-            >              <option value="select-dropdown">Soup</option>
-              <option value="with-options">Sandwhich</option>
-            </Form.Select>
-            <Form.Select
-              name="Soups"
-            >              <option value="select-dropdown">Onion Soup, $9.99</option>
-              <option value="with-options">Mystery Soup, $8.99</option>
-            </Form.Select>
-            <Form.Select
-              name="Sandwiches"
-            >              <option value="select-dropdown">Cuban Sandwich, $10.99</option>
-              <option value="with-options">Panini Sandwich, $11.99</option>
-            </Form.Select>
-          </Form.Control>
-        </Form.Field>
-      </Form.Field>
+      
+      
 
       <Form.Field kind="group">
         <Form.Control>
@@ -91,5 +71,21 @@ export function SubscriberForm() {
         </Form.Control>
       </Form.Field>
 
+
+      <Form.Field>
+        <Form.Label>Additional Notes:</Form.Label>
+        <Form.Control>
+          <Form.Input
+            name="Add a message for your order..."
+          />
+          <Icon align="left" size="small">
+            <i className="fas fa-user" />
+          </Icon>
+          <Icon align="right" size="small">
+            <i className="fas fa-check" />
+          </Icon>
+        </Form.Control>
+        <Form.Help color="success">This username is available</Form.Help>
+      </Form.Field>
     </form>
 }
