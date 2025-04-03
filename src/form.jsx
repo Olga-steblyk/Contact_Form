@@ -76,7 +76,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
+        <Form.Label>Cuban Sandwiches: $10.99</Form.Label>
         <Form.Field kind="Cuban Sandwiches: $10.99">
           <Form.Control>
             <Form.Select
@@ -93,7 +93,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
+        <Form.Label>Panini Sandwiches: $11.99</Form.Label>
         <Form.Field kind="Panini Sandwiches: $11.99">
           <Form.Control>
             <Form.Select
@@ -110,7 +110,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
+        <Form.Label>Onion Soup: $9.99</Form.Label>
         <Form.Field kind="Onion Soup: $9.99">
           <Form.Control>
             <Form.Select
@@ -127,7 +127,7 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
-        <Form.Label>Subject</Form.Label>
+        <Form.Label>Mystery Sandwiches: $8.99</Form.Label>
         <Form.Field kind="Mystery Sandwiches: $8.99">
           <Form.Control>
             <Form.Select
