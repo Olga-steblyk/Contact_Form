@@ -82,14 +82,64 @@ export function SubscriberForm() {
             <Form.Select
               name="quantity"
             >
-              <option value="select-dropdown">1</option>
+              <option value="select-dropdown">0</option>
+              <option value="with-options">1</option>
               <option value="with-options">2</option>
               <option value="with-options">3</option>
               <option value="with-options">4</option>
             </Form.Select>
-
           </Form.Control>
-          
+        </Form.Field>
+      </Form.Field>
+
+      <Form.Field>
+        <Form.Label>Subject</Form.Label>
+        <Form.Field kind="Panini Sandwiches: $11.99">
+          <Form.Control>
+            <Form.Select
+              name="Quantity:"
+            >
+              <option value="select-dropdown">0</option>
+              <option value="with-options">1</option>
+              <option value="with-options">2</option>
+              <option value="with-options">3</option>
+              <option value="with-options">4</option>
+            </Form.Select>
+          </Form.Control>
+        </Form.Field>
+      </Form.Field>
+
+      <Form.Field>
+        <Form.Label>Subject</Form.Label>
+        <Form.Field kind="Onion Soup: $9.99">
+          <Form.Control>
+            <Form.Select
+              name="Quantity:"
+            >
+              <option value="select-dropdown">0</option>
+              <option value="with-options">1</option>
+              <option value="with-options">2</option>
+              <option value="with-options">3</option>
+              <option value="with-options">4</option>
+            </Form.Select>
+          </Form.Control>
+        </Form.Field>
+      </Form.Field>
+
+      <Form.Field>
+        <Form.Label>Subject</Form.Label>
+        <Form.Field kind="Mystery Sandwiches: $8.99">
+          <Form.Control>
+            <Form.Select
+              name="Quantity:"
+            >
+              <option value="select-dropdown">0</option>
+              <option value="with-options">1</option>
+              <option value="with-options">2</option>
+              <option value="with-options">3</option>
+              <option value="with-options">4</option>
+            </Form.Select>
+          </Form.Control>
         </Form.Field>
       </Form.Field>
 
