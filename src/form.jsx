@@ -21,7 +21,7 @@ export function SubscriberForm() {
             <i className="fas fa-check" />
           </Icon>
         </Form.Control>
-        <Form.Help color="success">This username is available</Form.Help>
+        <Form.Help>This username is available</Form.Help>
       </Form.Field>
 
       <Form.Field>
@@ -37,7 +37,7 @@ export function SubscriberForm() {
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
-        <Form.Help color="danger">This email is invalid</Form.Help>
+        <Form.Help>This email is invalid</Form.Help>
       </Form.Field>
 
       <Form.Field>
@@ -54,7 +54,7 @@ export function SubscriberForm() {
             <i className="fas fa-exclamation-triangle" />
           </Icon>
         </Form.Control>
-        <Form.Help color="danger">Insert address for delivery</Form.Help>
+        <Form.Help>Insert address for delivery</Form.Help>
       </Form.Field>
 
       
@@ -78,12 +78,7 @@ export function SubscriberForm() {
           <Form.Input
             name="Add a message for your order..."
           />
-          <Icon align="left" size="small">
-            <i className="fas fa-user" />
-          </Icon>
-          <Icon align="right" size="small">
-            <i className="fas fa-check" />
-          </Icon>
+         
         </Form.Control>
         <Form.Help color="success">This username is available</Form.Help>
       </Form.Field>
