@@ -12,7 +12,6 @@ export function SubscriberForm() {
         <Form.Label>Username</Form.Label>
         <Form.Control>
           <Form.Input
-            color="grey"
             name="username"
           />
           <Icon align="left" size="small">
@@ -29,7 +28,6 @@ export function SubscriberForm() {
         <Form.Label>Email</Form.Label>
         <Form.Control>
           <Form.Input
-            color="grey"
             name="email"
           />
           <Icon align="left" size="small">
