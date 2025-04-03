@@ -62,10 +62,19 @@ export function SubscriberForm() {
         <Form.Field kind="group">
           <Form.Control>
             <Form.Select
-              name="subject"
-            >
-              <option value="select-dropdown">Select dropdown</option>
-              <option value="with-options">With options</option>
+              name="Type of Food"
+            >              <option value="select-dropdown">Soup</option>
+              <option value="with-options">Sandwhich</option>
+            </Form.Select>
+            <Form.Select
+              name="Soups"
+            >              <option value="select-dropdown">Onion Soup, $9.99</option>
+              <option value="with-options">Mystery Soup, $8.99</option>
+            </Form.Select>
+            <Form.Select
+              name="Sandwiches"
+            >              <option value="select-dropdown">Cuban Sandwich, $10.99</option>
+              <option value="with-options">Panini Sandwich, $11.99</option>
             </Form.Select>
           </Form.Control>
         </Form.Field>
