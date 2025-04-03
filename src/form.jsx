@@ -44,6 +44,7 @@ export function SubscriberForm() {
         <Form.Label>Location</Form.Label>
         <Form.Control>
           <Form.Input
+            
             name="location"
           />
           <Icon align="left" size="small">
@@ -66,9 +67,6 @@ export function SubscriberForm() {
               <option value="select-dropdown">Select dropdown</option>
               <option value="with-options">With options</option>
             </Form.Select>
-          </Form.Control>
-          <Form.Control fullwidth loading>
-            <Form.Input placeholder="With loading state" />
           </Form.Control>
         </Form.Field>
       </Form.Field>
