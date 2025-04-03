@@ -43,6 +43,23 @@ export function SubscriberForm() {
       </Form.Field>
 
       <Form.Field>
+        <Form.Label>Location</Form.Label>
+        <Form.Control>
+          <Form.Input
+            color="danger"
+            name="location"
+          />
+          <Icon align="left" size="small">
+            <i className="fas fa-envelope" />
+          </Icon>
+          <Icon align="right" size="small">
+            <i className="fas fa-exclamation-triangle" />
+          </Icon>
+        </Form.Control>
+        <Form.Help color="danger">Insert address for delivery</Form.Help>
+      </Form.Field>
+
+      <Form.Field>
         <Form.Label>Subject</Form.Label>
         <Form.Field kind="group">
           <Form.Control>
