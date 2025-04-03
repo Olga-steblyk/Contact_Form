@@ -44,7 +44,6 @@ export function SubscriberForm() {
         <Form.Label>Location</Form.Label>
         <Form.Control>
           <Form.Input
-            color="s"
             name="location"
           />
           <Icon align="left" size="small">
